@@ -2,6 +2,8 @@
 
 //Create a variable called myName that is a string data type
 
+let myName = "Joe"
+
 //Code here
 
 //////////////////PROBLEM 2////////////////////
@@ -10,11 +12,15 @@
 
 //Code here
 
+let myAge = 4
+
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
 //Code here
+
+let lovesCode = true
 
 //////////////////PROBLEM 4////////////////////
 
@@ -22,11 +28,15 @@
 
 //Code here
 
+let greatestFear = undefined
+
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
 //Code here
+
+let devMountainGoal = null
 
 //////////////////PROBLEM 6////////////////////
 
@@ -37,6 +47,12 @@
 
 //Code here
 
+function greeting(name) {
+  return `Hello, ${name}`
+}
+greeting ('Trogdor')
+
+
 //////////////////PROBLEM 7////////////////////
 
 //Write a function expression called newGreeting.
@@ -44,12 +60,20 @@
 
 //Code Here
 
+let newGreeting = function(name) {
+  return `Hello, ${name}`
+}
+ 
+newGreeting ('Trogdor')
+
 //////////////////PROBLEM 8////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
+
+let groceries = ['apples', 'milk', 'eggs', 'bread']
 
 //////////////////PROBLEM 9////////////////////
 
@@ -60,10 +84,20 @@
 
 //Code Here
 
+let dog = {
+  name: 'Tootsie',
+  color: 'brown', 
+  age: 2,
+  goodBoy: true,
+}
+
+
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
+
+dog.name = devMountainClassPet
 
 //////////////////PROBLEM 10////////////////////
 
