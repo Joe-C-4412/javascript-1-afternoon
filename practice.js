@@ -122,6 +122,7 @@ function nameCheck(name) {
   }
  }
  nameCheck ('Joe')
+ 
 
 //////////////////PROBLEM 11////////////////////
 
