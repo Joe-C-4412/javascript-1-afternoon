@@ -122,7 +122,7 @@ function nameCheck(name) {
   }
  }
  nameCheck ('Joe')
- 
+
 
 //////////////////PROBLEM 11////////////////////
 
@@ -132,10 +132,16 @@ function nameCheck(name) {
 
 //Code Here
 
+function add(num1, num2) {
+  return num1 + num2
+}
+
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
 
 //Code Here
+
+add (3,4)
 
 //////////////////PROBLEM 12////////////////////
 
