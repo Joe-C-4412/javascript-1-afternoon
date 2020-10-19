@@ -155,6 +155,23 @@ var mathSum = add (3,4)
 
 // Code here
 
+function faveColorFinder(color) {
+  if (color === "red"){
+    return 'red is a great color'
+    }
+  if (color === "green"){
+    return 'green is a solid favorite color'
+  }
+  if (color === "black"){
+    return 'so trendy'
+  }
+  else
+    return 'you need to evaluate your favorite color choice'
+}
+
+faveColorFinder ('green')
+
+
 //////////////////PROBLEM 13////////////////////
 
 let duck = "cute";
